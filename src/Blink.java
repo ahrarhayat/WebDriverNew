@@ -13,9 +13,9 @@ public class Blink {
         driver.get(baseUrl);
         String originalName= "65883";
         WebElement element=driver.findElement(By.name("uname"));
-        element.sendKeys("bari.rashedul@genweb2.com");
+        element.sendKeys(".......");
         element=driver.findElement(By.name("pword"));
-        element.sendKeys("DhakaAdm1n");
+        element.sendKeys(".......");
         element=driver.findElement(By.xpath("/html/body/div[1]/div[4]/div[2]/div/table/tbody/tr/td[1]/div/form/div[3]/input"));
         element.click();
         element=driver.findElement(By.xpath("//*[@id=\"admin-menu\"]/nav/ul/li[1]/a"));
