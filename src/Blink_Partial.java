@@ -14,9 +14,9 @@ public class Blink_Partial {
         //Enter credentials and login
         driver.get(baseUrl);
         WebElement element=driver.findElement(By.name("uname"));
-        element.sendKeys(".......");
+        element.sendKeys("bari.rashedul@genweb2.com");
         element=driver.findElement(By.name("pword"));
-        element.sendKeys(".......");
+        element.sendKeys("......");
         element=driver.findElement(By.xpath("/html/body/div[1]/div[4]/div[2]/div/table/tbody/tr/td[1]/div/form/div[3]/input"));
         element.click();
         element=driver.findElement(By.xpath("//*[@id=\"keyword\"]"));
